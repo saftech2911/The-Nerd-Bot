@@ -45,69 +45,69 @@ async def predict(ctx, *, question):
 @client.command()
 async def give(ctx, sub, ch):
     if sub == 'ban2' and ch == '1':
-        await ctx.send('Wait for it to be given....')
+        await ctx.send('Link to note here')
     elif sub == 'ban2' and ch == '2':
-        await ctx.send('Wait for it to be given....')
+        await ctx.send('Link to note here')
     elif sub == 'ban2' and ch == '3':
-        await ctx.send('Wait for it to be given....')
+        await ctx.send('Link to note here')
     elif sub == 'ban2' and ch == '4':
-        await ctx.send('Wait for it to be given....')
+        await ctx.send('Link to note here')
     elif sub == 'phys' and ch == '1':
-        await ctx.send('Wait for it to be given....')
+        await ctx.send('Link to note here')
     elif sub == 'phys' and ch == '2':
-        await ctx.send('Wait for it to be given....')
+        await ctx.send('Link to note here')
     elif sub == 'phys' and ch == '3':
-        await ctx.send('Wait for it to be given....')
+        await ctx.send('Link to note here')
     elif sub == 'phys' and ch == '4':
-        await ctx.send('Wait for it to be given....')
+        await ctx.send('Link to note here')
     elif sub == 'chem' and ch == '1':
-        await ctx.send('Wait for it to be given....')
+        await ctx.send('Link to note here')
     elif sub == 'chem' and ch == '2':
-        await ctx.send('Wait for it to be given....')
+        await ctx.send('Link to note here')
     elif sub == 'chem' and ch == '3':
-        await ctx.send('Wait for it to be given....')
+        await ctx.send('Link to note here')
     elif sub == 'chem' and ch == '4':
-        await ctx.send('Wait for it to be given....')
+        await ctx.send('Link to note here')
     elif sub == 'biol' and ch == '1':
-        await ctx.send('Wait for it to be given....')
+        await ctx.send('Link to note here')
     elif sub == 'biol' and ch == '2':
-        await ctx.send('Wait for it to be given....')
+        await ctx.send('Link to note here')
     elif sub == 'biol' and ch == '3':
-        await ctx.send('Wait for it to be given....')
+        await ctx.send('Link to note here')
     elif sub == 'biol' and ch == '4':
-        await ctx.send('Wait for it to be given....')
+        await ctx.send('Link to note here')
     elif sub == 'bstu' and ch == '1':
-        await ctx.send('Wait for it to be given....')
+        await ctx.send('Link to note here')
     elif sub == 'bstu' and ch == '2':
-        await ctx.send('Wait for it to be given....')
+        await ctx.send('Link to note here')
     elif sub == 'bstu' and ch == '3':
-        await ctx.send('Wait for it to be given....')
+        await ctx.send('Link to note here')
     elif sub == 'bstu' and ch == '4':
-        await ctx.send('Wait for it to be given....')
+        await ctx.send('Link to note here')
     elif sub == 'econ' and ch == '1':
-        await ctx.send('Wait for it to be given....')
+        await ctx.send('Link to note here')
     elif sub == 'econ' and ch == '2':
-        await ctx.send('Wait for it to be given....')
+        await ctx.send('Link to note here')
     elif sub == 'econ' and ch == '3':
-        await ctx.send('Wait for it to be given....')
+        await ctx.send('Link to note here')
     elif sub == 'econ' and ch == '4':
-        await ctx.send('Wait for it to be given....')
+        await ctx.send('Link to note here')
     elif sub == 'comp' and ch == '1':
         await ctx.send('Notes upto 15 Jan: https://drive.google.com/u/0/uc?id=1aHYGgIcx-FMR0B_-WCitRoTa7OFEvx3P&export=download')
     elif sub == 'comp' and ch == '2':
-        await ctx.send('Wait for it to be given....')
+        await ctx.send('Link to note here')
     elif sub == 'comp' and ch == '3':
-        await ctx.send('Wait for it to be given....')
+        await ctx.send('Link to note here')
     elif sub == 'comp' and ch == '4':
-        await ctx.send('Wait for it to be given....')
+        await ctx.send('Link to note here')
     elif sub == 'eng2' and ch == '1':
-        await ctx.send('Wait for it to be given....')
+        await ctx.send('Link to note here')
     elif sub == 'eng2' and ch == '2':
-        await ctx.send('Wait for it to be given....')
+        await ctx.send('Link to note here')
     elif sub == 'eng2' and ch == '3':
-        await ctx.send('Wait for it to be given....')
+        await ctx.send('Link to note here')
     elif sub == 'eng2' and ch == '4':
-        await ctx.send('Wait for it to be given....')
+        await ctx.send('Link to note here')
     elif sub == 'routine' and ch == 'sunflower':
         await ctx.send(
             'Get your routine here: https://drive.google.com/uc?id=1jn6vxhMhdJ_5oQqSARV7VcDKaddJ2F33&export=download'
@@ -182,8 +182,8 @@ async def joinclass(ctx, sub):
 async def help(ctx):
     await ctx.send(
         'Get all the command lists and know haw to use me from here: https://sites.google.com/view/playpen8/the-nerd-bot?authuser=0'
-    )
+    ) #The website is no longer available
 
 
-keep_alive()
-client.run('Discord API Token Here')
+keep_alive() #So that the bot is running continuosuly
+client.run('Discord API Token Here') #API Token removed for confidential purposes
