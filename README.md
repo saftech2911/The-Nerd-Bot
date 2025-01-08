@@ -8,7 +8,7 @@ This Discord Chatbot, developed in Python, was created during COVID-19 to fetch 
 
 To trigger the bot, begin any command with the “::” prefix. In the chatbox.
 
-Ex: `::give \[sub\] \[ch\]`
+Ex: `::give [sub] [ch]`
 
 NOTE: Since this bot was created in 2020-2021, slash commands now currently available in Discord is not incorporated in this bot.
 
