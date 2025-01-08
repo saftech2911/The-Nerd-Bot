@@ -126,56 +126,56 @@ async def give(ctx, sub, ch):
         )
     else:
         await ctx.send(
-            'Syntax error. Error code: 6969. Please check out the command list:'
+            'Syntax error. Please check out the command list:'
         )
 
 
 @client.command()
-async def joinclass(ctx, sub):
+async def joinclass(ctx, sub): #Join class command: gives students zoom class links directly on demand
     if sub == 'eng1':
         await ctx.send(
-            f'Here are the links. Choose whichever suitable:\nKawkab miss: https://www.google.com/url?q=https%3A%2F%2Fus04web.zoom.us%2Fj%2F73806308522%3Fpwd%3DUS85STdycEdqamw2UnMrV2dBdUY0dz09&sa=D&sntz=1&usg=AFQjCNHPOenPejLqNIND2Oq41IetxT7v1A\nRoohi miss: https://www.google.com/url?q=https%3A%2F%2Fus04web.zoom.us%2Fj%2F4378056418%3Fpwd%3DT2RMempNY1FWdEpYRE9pc1RJd3BUUT09&sa=D&sntz=1&usg=AFQjCNG5FzQayWR_Dq8YvlNHayhKmKO49A'
+            'Zoom Join Link Here'
         )
     elif sub == 'eng2':
         await ctx.send(
-            'Join link: https://www.google.com/url?q=https%3A%2F%2Fus04web.zoom.us%2Fj%2F9757036484%3Fpwd%3DUFF3WjhYUHh2RTVtN0RwUTErNFJkZz09&sa=D&sntz=1&usg=AFQjCNFcU-vFtX2n6tob7EIlP-y8ACgh3w'
+            'Zoom Join Link Here'
         )
     elif sub == 'ban1':
         await ctx.send(
-            'Join link: https://www.google.com/url?q=https%3A%2F%2Fus04web.zoom.us%2Fj%2F7336020645%3Fpwd%3DdXhVODZYMlA0MmFJZVZXZDhjdHkzQT09&sa=D&sntz=1&usg=AFQjCNFbTm9a58v-Xw9_cI41KjimZTWFDw'
+            'Zoom Join Link Here'
         )
     elif sub == 'ban2':
         await ctx.send(
-            'Join link: https://www.google.com/url?q=https%3A%2F%2Fus04web.zoom.us%2Fj%2F5434558529%3Fpwd%3DdytKaTJ3RjIxYXN1WmZUNkN2cFBlUT09&sa=D&sntz=1&usg=AFQjCNExu5zzTEc9Xi3_apWbugP9bQSVvA'
+            'Zoom Join Link Here'
         )
     elif sub == 'phys':
-        await ctx.send('Join link: https://us04web.zoom.us/j/9614923043?pwd=Qm1QVUMvNGZQRVgzQ0pYa0xRRXlmZz09')
+        await ctx.send('Zoom Join Link Here')
     elif sub == 'chem':
         await ctx.send(
-            'Join link: https://www.google.com/url?q=https%3A%2F%2Fus04web.zoom.us%2Fj%2F2141180447%3Fpwd%3DdVZWL1lpQUV6L2pYYUNqeHRtTkJQdz09&sa=D&sntz=1&usg=AFQjCNF8JXeAc6JXyg6zbmi8f88aJIDBFQ'
+            'Zoom Join Link Here'
         )
     elif sub == 'biol':
         await ctx.send(
-            'Join link: https://www.google.com/url?q=https%3A%2F%2Fus04web.zoom.us%2Fj%2F5707770669%3Fpwd%3DSDd3L0EvdmRKWHcxSmFKeVVMd2VBUT09&sa=D&sntz=1&usg=AFQjCNGjyDQ83B5YaquZHjdgFqzmLJSPzQ'
+            'Zoom Join Link Here'
         )
     elif sub == 'bstu':
         await ctx.send(
-            'Join link: https://www.google.com/url?q=https%3A%2F%2Fus04web.zoom.us%2Fj%2F7910053527%3Fpwd%3DM1RseUVKWmp3NXpoU0x0K2ZMamxWdz09&sa=D&sntz=1&usg=AFQjCNG-xKwLX6fiP70F49fmQOJXJ5GHJg'
+            'Zoom Join Link Here'
         )
     elif sub == 'econ':
         await ctx.send(
-            'Join link: https://zoom.us/j/8912796017?pwd=SjF6Tk01bWJRRHpuMHRUVDlXWG84QT09'
+            'Zoom Join Link Here'
         )
     elif sub == 'comp':
         await ctx.send(
-            'Join link for Mehidi Sir: https://www.google.com/url?q=https%3A%2F%2Fus02web.zoom.us%2Fj%2F81860791451%3Fpwd%3DWFBTUmdWdWU2cXZBcVdkNDcyTUV3dz09&sa=D&sntz=1&usg=AFQjCNHlEY6XXbXhdWJARAwXXbd3PF7KlA \nJoin link for Ishmam Sir: https://us04web.zoom.us/j/5065622363?pwd=cHVOM1JMRkxFWHZHZkpGbHRqUm1CZz09'
+            'Zoom Join Link Here'
         )
     elif sub == 'admt':
         await ctx.send(
-            'Join link: https://zoom.us/j/2498364585?pwd=K1Y2ZWNKNitkWkxuWVBORDZOMHJtUT09'
+            'Zoom Join Link Here'
         )
     elif sub == 'matd':
-        await ctx.send('https://us04web.zoom.us/j/6266764690?pwd=UXlUYThISXpMeWo1dncwd0JrWEZnZz09')
+        await ctx.send('Zoom Join Link Here')
 
 
 @client.command()
@@ -186,4 +186,4 @@ async def help(ctx):
 
 
 keep_alive() #So that the bot is running continuosuly
-client.run('Discord API Token Here') #API Token removed for confidential purposes
+client.run('Discord API Token Here') #API Token removed for confidentiality
